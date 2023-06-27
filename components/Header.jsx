@@ -27,7 +27,7 @@ const Header = () => {
                     </>
                     }
                     <li>
-                        <button onClick={logoutHandler}>{`${auth ? 'login':'Logout' }`}</button>
+                        <button onClick={logoutHandler}>{`${auth ? 'login':'Logout'}`}</button>
                     </li>
                 </ul>
             </nav>
